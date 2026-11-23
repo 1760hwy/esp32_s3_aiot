@@ -1,0 +1,31 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "BSP/595/595.c"
+        "BSP/wifi/app_wifi.c"
+        "BSP/network/app.network.c"
+        "BSP/CAN/app_can.c"
+        "BSP/DO/app_DO.c"
+        "BSP/DI/app_DI.c"
+        "BSP/485/app_485.c"
+        "Logic/DIDO595/app_dido595.c"
+        "Logic/Network595/app_network595.c"
+        "Logic/WebServer/app_webserver.c"
+        "Logic/RS485Engine/app_rs485_engine.c"
+        "Logic/CANEngine/app_can_engine.c"
+
+    INCLUDE_DIRS 
+        "."
+        "BSP/595/include"
+        "BSP/wifi/include"
+        "BSP/network/include"
+        "BSP/CAN/include"
+        "BSP/DO/include"
+        "BSP/DI/include"
+        "BSP/485/include"
+        "Logic/DIDO595/include"
+        "Logic/Network595/include"
+        "Logic/WebServer/include"
+        "Logic/RS485Engine/include"
+        "Logic/CANEngine/include"
+)

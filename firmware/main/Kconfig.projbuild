@@ -1,0 +1,17 @@
+menu "IOT5 Web console"
+
+config IOT5_WEB_USERNAME
+    string "Web administrator username"
+    default "admin"
+    help
+        Use 1 to 31 characters from A-Z, a-z, 0-9, period, underscore and hyphen.
+
+config IOT5_WEB_PASSWORD
+    string "Web administrator password"
+    default ""
+    help
+        Use 12 to 63 characters from A-Z, a-z, 0-9, period, underscore and hyphen.
+        An empty or invalid value leaves the HTTP server disabled.
+        Keep the generated sdkconfig and the configured firmware image private.
+
+endmenu

@@ -1,0 +1,13 @@
+/.DS_Store
+Thumbs.db
+__pycache__/
+/firmware/build/
+/firmware/managed_components/
+/firmware/sdkconfig
+/firmware/sdkconfig.old
+/firmware/sdkconfig.*
+!/firmware/sdkconfig.defaults
+*.bin
+*.elf
+*.map
+*.log
